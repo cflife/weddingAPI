@@ -9,7 +9,7 @@
 namespace app\api\controller;
 
 
-class hello
+class Hello
 {
     public function helloworld(){
         return "hello world";
