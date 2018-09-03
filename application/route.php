@@ -9,13 +9,12 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-return [
-    '__pattern__' => [
-        'name' => '\w+',
-    ],
-    '[hello]'     => [
-        ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
-        ':name' => ['index/hello', ['method' => 'post']],
-    ],
+use think\Route;
 
-];
+//Route::get('api','api/v1.distance/getLastDistance');
+////Route::get('api/:version/sample/:key', 'api/:version.Sample/getSample');
+//
+//
+//Route::get('/',function(){
+//    return 'Hello,world!';
+//});
