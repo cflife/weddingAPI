@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "296bd8a1d28e39d56dcd80ce7be249f3",
+    "content-hash": "e0746207bac76c3e7052025b6afbb414",
     "packages": [
         {
             "name": "topthink/framework",
@@ -97,6 +97,53 @@
                 }
             ],
             "time": "2018-05-11T06:45:42+00:00"
+        },
+        {
+            "name": "topthink/think-swoole",
+            "version": "v2.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-swoole.git",
+                "reference": "230a7af54d1168fdc55301e2b50ee2897c12610a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-swoole/zipball/230a7af54d1168fdc55301e2b50ee2897c12610a",
+                "reference": "230a7af54d1168fdc55301e2b50ee2897c12610a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-swoole": ">=1.9.5",
+                "topthink/framework": "5.1.*",
+                "topthink/think-installer": "^2.0"
+            },
+            "type": "think-extend",
+            "extra": {
+                "think-config": {
+                    "swoole": "src/config.php",
+                    "swoole_server": "src/server_config.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "think\\swoole\\": "src"
+                },
+                "files": [
+                    "src/command.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "liu21st",
+                    "email": "liu21st@gmail.com"
+                }
+            ],
+            "description": "Swoole extend for thinkphp5.1",
+            "time": "2018-07-15T07:54:25+00:00"
         }
     ],
     "packages-dev": [],
