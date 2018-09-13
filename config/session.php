@@ -9,15 +9,18 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-use think\Route;
+// +----------------------------------------------------------------------
+// | 会话设置
+// +----------------------------------------------------------------------
 
-//Route::get('api','api/v1.distance/getLastDistance');
-Route::get('api/:version/lastdistance', 'api/:version.Distance/getLastDistance');
-Route::get('api/:version/distance/previous/:id','api/:version.Distance/previousDistance');
-Route::get('api/:version/distance/next/:id','api/:version.Distance/nextDistance');
-
-//
-//
-//Route::get('/',function(){
-//    return 'Hello,world!';
-//});
+return [
+    'id'             => '',
+    // SESSION_ID的提交变量,解决flash上传跨域
+    'var_session_id' => '',
+    // SESSION 前缀
+    'prefix'         => 'think',
+    // 驱动方式 支持redis memcache memcached
+    'type'           => '',
+    // 是否自动开启 SESSION
+    'auto_start'     => true,
+];
