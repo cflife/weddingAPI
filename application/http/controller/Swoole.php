@@ -11,7 +11,7 @@ class Swoole extends Server
     protected $sockType = SWOOLE_SOCK_TCP;
     protected $option = [
         'worker_num'=> 4,
-        'daemonize'	=> true,
+        'daemonize'	=> false,
         'backlog'	=> 128
     ];
     public function onOpen($server,$request){
