@@ -8,6 +8,7 @@
 namespace app\api\controller\v1;
 
 use think\Controller;
+use app\api\model\Albums as AlbumsModel;
 
 class Albums extends Controller
 {
@@ -20,5 +21,10 @@ class Albums extends Controller
     public function albums(){
         $res = $this->pmodel->getAlbum();
         return $res;
+    }
+
+    public function detail($id){
+        $imgs = AlbumsModel::getDetailById($id);
+        return json($imgs);
     }
 }

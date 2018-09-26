@@ -16,6 +16,7 @@ Route::get('think', function () {
 Route::get('hello/:name', 'index/hello');
 
 Route::get('api/:version/albums','api/:version.Albums/albums');
+Route::get('api/:version/albumDetail/:id','api/:version.Albums/detail');
 
 return [
 
