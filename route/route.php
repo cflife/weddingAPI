@@ -14,7 +14,9 @@ Route::get('think', function () {
 });
 
 Route::get('hello/:name', 'index/hello');
-
+Route::get('api/:version/lastdistance','api/:version.Distance/lastdistance');
+Route::get('api/:version/distance/previous','api/:version.Distance/previous');
+Route::get('api/:version/distance/next','api/:version.Distance/next');
 Route::get('api/:version/albums','api/:version.Albums/albums');
 Route::get('api/:version/albumDetail/:id','api/:version.Albums/detail');
 
