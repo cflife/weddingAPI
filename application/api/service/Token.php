@@ -14,6 +14,7 @@ class Token
     public static function generateToken()
     {
         $randChar = getRandChar(32);
-
+        $timestamp = $_SERVER['REQUEST_TIME_FLOAT'];
+        return md5($randChar.$timestamp);
     }
 }
