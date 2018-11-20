@@ -10,7 +10,7 @@ namespace app\api\service;
 
 
 use think\facade\Cache;
-use think\Request;
+use think\facade\Request;
 
 class Token
 {
@@ -23,9 +23,7 @@ class Token
 
     public static function getCurrentTokenVar($key)
     {
-        $request = new Request();
-        $token = $request
-            ->header('token');
+        $token = Request::header('token');
         $vars = Cache::get($token);
         if (!$vars)
         {
