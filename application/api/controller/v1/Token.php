@@ -18,11 +18,11 @@ class Token
      * 获取令牌
     */
     public function getToken($code=''){
-        (new TokenGet())->goCheck();
+        //(new TokenGet())->goCheck();
         $wx = new UserToken($code);
         $token = $wx->get();
-        return [
+        return json([
           'token' => $token
-        ];
+        ]);
     }
 }

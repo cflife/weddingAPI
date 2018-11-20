@@ -1,8 +1,11 @@
 <?php
 namespace app\api\service;
 
+use app\api\model\User;
 use app\lib\exception\WeChatException;
 use think\Exception;
+use think\facade\Cache;
+
 
 class UserToken extends Token
 {
@@ -31,7 +34,7 @@ class UserToken extends Token
                 $this->processLoginError($wxResult);
             }
             else{
-                return $this->grantToken();
+                return $this->grantToken($wxResult);
             }
         }
     }
@@ -41,5 +44,47 @@ class UserToken extends Token
             'msg'=>$wxResult['errmsg'],
             'errcode'=>$wxResult['errcode']
         ]);
+    }
+
+    private function grantToken($wxResult)
+    {
+        $openid = $wxResult['openid'];
+        $user = User::getByOpenID($openid);
+        if(!$user){
+            $uid = $this->newUser($openid);
+        }else{
+            $uid = $user->id;
+        }
+        $cachedValue = $this->prepareCachedValue($uid,$wxResult);
+
+        $token = $this->saveToCache($cachedValue);
+        return $token;
+    }
+
+    //写入缓存
+    private function saveToCache($wxResult)
+    {
+        $key = self::generateToken();
+        $value = json_encode($wxResult);
+//        Cache::set($key, $value,7200);
+        $result = cache($key,$value,7200);
+        return $key;
+    }
+
+    private function prepareCachedValue($uid,$wxresult)
+    {
+        $cachedValue = $wxresult;
+        $cachedValue['uid'] = $uid;
+        return $cachedValue;
+    }
+
+    //创建新用户
+    private function newUser($openid){
+        $user = User::create(
+            [
+                'openid'=>$openid
+            ]
+        );
+        return $user->id;
     }
 }

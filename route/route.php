@@ -19,8 +19,12 @@ Route::get('api/:version/token/user','api/:version.Token/getToken');
 Route::get('api/:version/lastdistance','api/:version.Distance/lastdistance');
 Route::get('api/:version/distance/previous','api/:version.Distance/previous');
 Route::get('api/:version/distance/next','api/:version.Distance/next');
+Route::post('api/:version/albums/add_short_comment','api/:version.Albums/addShortComment');
+Route::get('api/:version/albums/:aid/short_comment','api/:version.Albums/getShortComment');
 Route::get('api/:version/albums','api/:version.Albums/albums');
 Route::get('api/:version/albumDetail/:id','api/:version.Albums/detail');
+
+
 
 return [
 

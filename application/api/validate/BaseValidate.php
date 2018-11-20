@@ -3,14 +3,15 @@
 namespace app\api\validate;
 
 use app\lib\exception\ParameterException;
-use think\validate;
+use think\Validate;
 use think\Request;
 
-class BaseValidate extends validate
+class BaseValidate extends Validate
 {
     public function goCheck()
     {
-        $request = Request::instance();
+        $request = new Request();
+        //dump($request->param());
         $params = $request->param();
         $params['token'] = $request->header('token');
         if (!$this->Check($params)) {
