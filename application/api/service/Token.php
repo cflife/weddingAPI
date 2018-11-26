@@ -27,7 +27,7 @@ class Token
         $vars = Cache::get($token);
         if (!$vars)
         {
-            throw new TokenException();
+//            throw new TokenException();
         }
         else {
             if(!is_array($vars))

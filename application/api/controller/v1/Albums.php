@@ -9,9 +9,11 @@ namespace app\api\controller\v1;
 
 use app\api\controller\BaseController;
 use app\api\model\Comment as CommentModel;
+use app\api\model\LikeAlbums;
 use think\Controller;
 use app\api\model\Albums as AlbumsModel;
 use think\facade\Request;
+use app\api\model\User as UserModel;
 
 class Albums extends BaseController
 {
@@ -66,5 +68,46 @@ class Albums extends BaseController
             ]);
         }
         return json(['status'=>1,'msg'=>'评论成功']);
+    }
+
+    public function like()
+    {
+        $aid = Request::post('aid');
+        $res = LikeAlbums::create([
+            'aid'=>$aid,
+            'uid'=>$this->uid
+        ]);
+        if($res){
+            return json(['status'=>0,'msg'=>'点赞成功']);
+        }else{
+            return json(['status'=>-1,'msg'=>'点赞失败']);
+        }
+    }
+
+    public function cancelLike()
+    {
+        $aid = Request::post('aid');
+        $res = LikeAlbums::destroy(['aid'=>$aid,'uid'=>$this->uid]);
+        if($res){
+            return json(['status'=>0,'msg'=>'删除成功']);
+        }else{
+            return json(['status'=>-1,'msg'=>'删除失败']);
+        }
+    }
+
+    public function getLike($aid)
+    {
+        $likeModel = new LikeAlbums();
+        $num = $likeModel->getDistanceLike($aid);
+        $res = $likeModel->where(['uid'=>$this->uid,'aid'=>$aid])->find();
+        $isLike = $res ? true : false;
+        return json(['num'=>$num,'isLike'=>$isLike]);
+    }
+
+    public function myLike()
+    {
+        $user = UserModel::get($this->uid);
+        $albums = $user->albums;
+        return $albums;
     }
 }

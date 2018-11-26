@@ -13,9 +13,15 @@ use think\Model;
 
 class User extends Model
 {
+    public function albums()
+    {
+        return $this->belongsToMany('Albums','LikeAlbums','aid','uid');
+    }
+
     public static function getByOpenID($openId){
         $user = User::where('openid','=',$openId)
             ->find();
         return $user;
     }
+
 }
