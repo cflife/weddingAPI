@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/yaf/HYaf/.idea/HYaf.iml" filepath="$USER_HOME$/yaf/HYaf/.idea/HYaf.iml" />
       <module fileurl="file://$USER_HOME$/coding-97/.idea/coding-97.iml" filepath="$USER_HOME$/coding-97/.idea/coding-97.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/weddingAPI.iml" filepath="$PROJECT_DIR$/.idea/weddingAPI.iml" />
+      <module fileurl="file://$USER_HOME$/yaftest/.idea/yaftest.iml" filepath="$USER_HOME$/yaftest/.idea/yaftest.iml" />
     </modules>
   </component>
 </project>

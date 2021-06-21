@@ -1,277 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="440e8f21-ca05-403a-909d-d8c7cd03aad1" name="Default" comment="">
-      <change afterPath="$USER_HOME$/boss/Api/yjy.log" afterDir="false" />
-      <change afterPath="$USER_HOME$/boss/app/package-lock.json" afterDir="false" />
-      <change afterPath="$USER_HOME$/boss/app/src/module/chart/cfg" afterDir="true" />
-      <change afterPath="$USER_HOME$/boss/app/src/module/chart/cfg/attribustes" afterDir="true" />
-      <change afterPath="$USER_HOME$/boss/app/src/module/chart/cfg/design_chart.vue" afterDir="false" />
-      <change afterPath="$USER_HOME$/boss/app/src/module/chart/cfg/edit_chart.vue" afterDir="false" />
-      <change afterPath="$USER_HOME$/boss/app/src/module/collect/import_type.vue" afterDir="false" />
-      <change afterPath="$USER_HOME$/boss/app/src/module/collect/type.json" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/Api/application/config.php" beforeDir="false" afterPath="$USER_HOME$/boss/Api/application/config.php" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/Api/application/database.php" beforeDir="false" afterPath="$USER_HOME$/boss/Api/application/database.php" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/Api/application/home/controller/Chart.php" beforeDir="false" afterPath="$USER_HOME$/boss/Api/application/home/controller/Chart.php" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/Api/application/home/controller/Login.php" beforeDir="false" afterPath="$USER_HOME$/boss/Api/application/home/controller/Login.php" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/Api/public/.htaccess" beforeDir="false" afterPath="$USER_HOME$/boss/Api/public/.htaccess" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/Api/thinkphp/convention.php" beforeDir="false" afterPath="$USER_HOME$/boss/Api/thinkphp/convention.php" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/Api/thinkphp/library/think/App.php" beforeDir="false" afterPath="$USER_HOME$/boss/Api/thinkphp/library/think/App.php" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/Api/vendor/composer/installed.json" beforeDir="false" afterPath="$USER_HOME$/boss/Api/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/app/src/config/env.js" beforeDir="false" afterPath="$USER_HOME$/boss/app/src/config/env.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/app/src/libs/api.js" beforeDir="false" afterPath="$USER_HOME$/boss/app/src/libs/api.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/app/src/libs/map/china.js" beforeDir="false" afterPath="$USER_HOME$/boss/app/src/libs/map/china.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/app/src/module/chart/propertyedit/edititems/series/bar_edit/bar_label.vue" beforeDir="false" afterPath="$USER_HOME$/boss/app/src/module/chart/propertyedit/edititems/series/bar_edit/bar_label.vue" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/app/src/module/chart/propertyedit/edititems/series/bar_edit/bar_markLine.vue" beforeDir="false" afterPath="$USER_HOME$/boss/app/src/module/chart/propertyedit/edititems/series/bar_edit/bar_markLine.vue" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/app/src/module/chart/propertyedit/edititems/series/bar_edit/bar_markPoint.vue" beforeDir="false" afterPath="$USER_HOME$/boss/app/src/module/chart/propertyedit/edititems/series/bar_edit/bar_markPoint.vue" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/app/src/module/public/queryparam.vue" beforeDir="false" afterPath="$USER_HOME$/boss/app/src/module/public/queryparam.vue" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/app/src/router.js" beforeDir="false" afterPath="$USER_HOME$/boss/app/src/router.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/app/static/qrcode.jpg" beforeDir="false" />
-      <change beforePath="$USER_HOME$/boss/dbsync/config.json" beforeDir="false" afterPath="$USER_HOME$/boss/dbsync/config.json" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/dbsync/index.js" beforeDir="false" afterPath="$USER_HOME$/boss/dbsync/index.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/dbsync/package-lock.json" beforeDir="false" afterPath="$USER_HOME$/boss/dbsync/package-lock.json" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/dbsync/src/drive/jira.js" beforeDir="false" afterPath="$USER_HOME$/boss/dbsync/src/drive/jira.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/dbsync/src/drive/mysql.js" beforeDir="false" afterPath="$USER_HOME$/boss/dbsync/src/drive/mysql.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/dbsync/src/put.js" beforeDir="false" afterPath="$USER_HOME$/boss/dbsync/src/put.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/view/package-lock.json" beforeDir="false" afterPath="$USER_HOME$/boss/view/package-lock.json" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/view/package.json" beforeDir="false" afterPath="$USER_HOME$/boss/view/package.json" afterDir="false" />
-      <change beforePath="$USER_HOME$/boss/view/src/libs/api.js" beforeDir="false" afterPath="$USER_HOME$/boss/view/src/libs/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+    <list default="true" id="440e8f21-ca05-403a-909d-d8c7cd03aad1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/weddingAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weddingAPI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/v1/Token.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/v1/Token.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/service/Token.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/service/Token.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/service/UserToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/service/UserToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/route/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="route.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/route/route.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Token.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/coding-97/application/api/controller/v1/Token.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="15" column="23" selection-start-line="15" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserToken.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/coding-97/application/api/service/UserToken.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="59" column="39" selection-start-line="59" selection-end-line="60" />
-              <folding>
-                <element signature="e#35#58#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserToken.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/api/service/UserToken.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding>
-                <element signature="e#34#72#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenException.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/lib/exception/TokenException.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="BaseException.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/lib/exception/BaseException.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Token.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/service/Token.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Token.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/coding-97/application/api/service/Token.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Token.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Token.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-              <folding>
-                <element signature="e#120#150#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/config/swoole_server.php" />
-        <option value="$USER_HOME$/boss/Api/application/database.php" />
-        <option value="$USER_HOME$/boss/app/src/libs/api.js" />
-        <option value="$PROJECT_DIR$/route/route.php" />
-        <option value="$PROJECT_DIR$/application/api/controller/v1/Token.php" />
-        <option value="$PROJECT_DIR$/application/api/service/Token.php" />
-        <option value="$PROJECT_DIR$/application/common.php" />
-        <option value="$PROJECT_DIR$/application/api/service/UserToken.php" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="712" />
-  </component>
+  <component name="ProjectId" id="1jDREnnAltJRml1GLTrJP6RIeYH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="weddingAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weddingAPI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weddingAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weddingAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weddingAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weddingAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weddingAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weddingAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weddingAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weddingAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weddingAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding-97" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weddingAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding-97" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weddingAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding-97" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weddingAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>$USER_HOME$/.subversion</configuration>
     <supportedVersion>125</supportedVersion>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$USER_HOME$/boss" />
-          <option name="myCopyRoot" value="$USER_HOME$/boss" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$USER_HOME$/boss" />
-          <option name="myCopyRoot" value="$USER_HOME$/boss" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -282,232 +53,19 @@
       <updated>1536914807785</updated>
       <workItem from="1536977969630" duration="2623000" />
       <workItem from="1537694891658" duration="914000" />
-      <workItem from="1538998914817" duration="2704000" />
+      <workItem from="1538998914817" duration="2747000" />
+      <workItem from="1542113187731" duration="2472000" />
+      <workItem from="1542250180564" duration="9719000" />
+      <workItem from="1542681089854" duration="24584000" />
+      <workItem from="1544424248361" duration="2389000" />
+      <workItem from="1548428700870" duration="715000" />
+      <workItem from="1584148908653" duration="552000" />
+      <workItem from="1603336571160" duration="593000" />
+      <workItem from="1624278582957" duration="3143000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6241000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="712" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/route/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/boss/Api/application/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/swoole_server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/swoole.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/boss/app/src/libs/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/swoole_server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/swoole.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/coding-97/public/info.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/coding-97/public/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/swoole_server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/boss/Api/application/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/boss/app/src/libs/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/swoole.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/coding-97/application/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="58" column="36" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Token.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="e#120#150#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/extra/wx.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/coding-97/application/api/controller/v1/Token.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="15" column="23" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding-97/application/api/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding-97/thinkphp/library/think/Exception.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/service/Token.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding-97/application/api/service/Token.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/lib/exception/BaseException.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/lib/exception/TokenException.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/coding-97/application/api/service/UserToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="59" column="39" selection-start-line="59" selection-end-line="60" />
-          <folding>
-            <element signature="e#35#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/service/UserToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#34#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <option name="version" value="3" />
   </component>
 </project>
